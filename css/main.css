@@ -1,0 +1,181 @@
+
+@font-face {
+    font-family: 'Wisdom Script Regular';
+    src: url(..//fonts/Wisdom-Script-AJ.woff) format('woff');
+}
+
+/***** BASE STYLES *****/
+
+body {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px;
+}
+
+/***** GRID STYLE *****/
+
+.full-width {
+    padding-bottom: 20px;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    padding-bottom: 25px;
+    width: 600px;
+}
+
+.third-width {
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 0;
+    width: 400px;
+}
+
+/***** HEADER STYLE *****/
+
+header img {
+    border-bottom:solid 3px #77a466;
+    border-top: solid 3px #77a466;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding-top: 5px;
+    text-align: right;
+}
+/* float nav right to create one inline header */
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+/* inline block to get all list items in one line */
+
+nav ul a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    padding: 0 7px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* add padding to seperate the heading links */
+
+/***** TOP SECTION *****/
+
+#top-section {
+    padding: 10px 0;
+}
+
+#top-section h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#top-section p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section {
+
+    border-top: solid 1px #dedbdc;
+}
+
+#bottom-section h3 {
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase
+}
+
+#specials p {
+    color: #77a466;
+    line-height: 25px;
+    text-align: left;
+}
+
+#reviews {
+    border-left: solid 1px #dedbdc;
+    border-right: solid 1px #dedbdc;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#contact-us {
+    padding-left: 30px; 
+}
+
+#contact-us p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/***** FOOOTER *****/
+
+footer {
+    border-top: solid 1px #dedbdc;
+    clear: both;
+    padding-top: 25px;
+}
+footer h3 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer h3 span {
+    color: #77a466;
+    font-family: 'Wisdom Script Regular';
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ main,
+ menu,
+ nav,
+ section,
+ summary {
+   display: block;
+ }
